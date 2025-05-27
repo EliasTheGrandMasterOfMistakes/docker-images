@@ -14,6 +14,9 @@ RUN set -x \
         gnat-7 \
         libncurses5-dev \
         zlib1g-dev \
+        nasm \
+        uuid-dev \
+        imagemagick \
  && sudo apt-get autoremove -y \
  && sudo apt-get clean -y \
  && sudo rm -rf /var/lib/apt/lists/*
